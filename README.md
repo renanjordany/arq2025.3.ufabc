@@ -1,7 +1,7 @@
 # arq2025.3.ufabc
 PROJETO Arquitetura de Computadores
 
-📖 Sobre o Projeto
+# 📖 Sobre o Projeto
 Este projeto é um decifrador de cifras clássicas em Python, desenvolvido como parte de um trabalho prático sobre criptografia e representação numérica.
 
 O objetivo principal é decifrar a mensagem contida no arquivo encoded.txt, que é um texto em inglês criptografado e, em seguida, convertido para binário (ASCII 7 bits).
@@ -14,7 +14,7 @@ Ataque de Otimização (Hill Climbing) na Cifra de Substituição Simples.
 
 O núcleo do projeto é o uso de um modelo estatístico de Quad-grams (quadgrams.txt) para avaliar a "qualidade" (ou fitness) de um texto decifrado, permitindo que o programa "saiba" quando está se aproximando da solução correta.
 
-🚀 Como Funciona
+# 🚀 Como Funciona
 O script principal (cesardesc.py) oferece um menu interativo para escolher o método de ataque após carregar o arquivo codificado.
 
 1. Ataque à Cifra de César (Opção 1)
@@ -29,7 +29,7 @@ Resultado: O programa exibe o texto com a maior pontuação. (Neste caso, o resu
 2. Ataque à Cifra de Substituição (Opção 2)
 Como o número de chaves de substituição (26!) é astronômico, a força bruta é impossível. Este ataque usa um algoritmo de otimização heurística chamado Hill Climbing (Subida de Encosta).
 
-Método:
+# Método:
 
 O programa começa com uma chave de substituição aleatória (alfabeto embaralhado).
 
@@ -48,7 +48,7 @@ Ele calcula a probabilidade logarítmica (log-probability) de um texto. A soma d
 
 Textos com scores mais altos (menos negativos) são considerados mais parecidos com o inglês.
 
-🗂️ Arquivos no Repositório
+# 🗂️ Arquivos no Repositório
 cesardesc.py: O script principal em Python com o menu interativo e os algoritmos de ataque.
 
 encoded.txt: A mensagem criptografada, representada em binário ASCII.
@@ -57,7 +57,7 @@ ngram_score.py: Um script auxiliar (módulo) que implementa a classe ngram_score
 
 quadgrams.txt: O arquivo de dados (corpus) com as frequências dos quad-grams. É um arquivo grande.
 
-⚙️ Como Usar
+# ⚙️ Como Usar
 Pré-requisitos
 Python 3.x
 
